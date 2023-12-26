@@ -119,7 +119,7 @@ services:
       - "graylog_journal:/usr/share/graylog/data/journal"
       - "${MEND_DIR}/graylog/:/usr/share/graylog/data/contentpacks"
     healthcheck:
-      test: "bash -c 'printf \"GET / HTTP/1.1\n\n\" > /dev/tcp/0.0.0.0/5140; exit $?;'"
+      test: "bash -c 'printf \"GET / HTTP/1.1\n\n\" > /dev/tcp/0.0.0.0/5140; exit $$?;'"
       interval: 30s
       timeout: 5s
       retries: 10
