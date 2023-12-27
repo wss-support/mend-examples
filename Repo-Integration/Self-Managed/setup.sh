@@ -74,7 +74,7 @@ echo "${grn}${MEND_DIR}/prop.json created successfully${end}"
 
 # Add Graylog Password and Secret
 GRAYLOG_PASSWORD_SECRET="$(tr -dc A-Za-z0-9 < /dev/urandom | head -c 64; echo)"
-GRAYLOG_ROOT_PASSWORD_SHA2="$(echo -n ${graylog_root_password} | shasum -a 256 | cut -d ' ' -f 1)"
+GRAYLOG_ROOT_PASSWORD_SHA2="$(echo -n ${graylog_root_password} | sha256sum | cut -d ' ' -f 1)"
 
 # Move Graylog Content Pack to Mend directory
 rm -rf ${MEND_DIR}/graylog
