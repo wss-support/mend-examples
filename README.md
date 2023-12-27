@@ -1,3 +1,12 @@
+**MEND SUPPORT TEAM NOTE**  This repo is a fork from the mend-toolkit. The main branch should be kept up to date with that fork. The default branch has been changed to "linux2-supportlab" for this fork only. Please see Repo-Integration/Self-Managed/README.md
+
+
+**Changelog**:
+- ln 77 Repo-Integration/Self-Managed/setup.sh
+- ln 122 Repo-Integration/Self-Managed/docker-compose.yaml
+
+---
+
 ![Logo](https://mend-toolkit-resources-public.s3.amazonaws.com/img/mend-io-logo-horizontal.svg)  
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)  
