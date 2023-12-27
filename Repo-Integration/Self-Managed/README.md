@@ -1,4 +1,15 @@
+**MEND SUPPORT TEAM NOTE**  This repo is a fork from the mend-toolkit. The main branch should be kept up to date with that fork. The default branch has been changed to "linux2-supportlab" for this gh org because the lab server OS is Linux2; the PS team (mend-toolkit) uses an ubuntu machine, which means a few things need to be tweaked. See background at: https://github.com/mend-toolkit/mend-examples/issues/167 This fork cannot be shared with customers, but you may need to advise customers of the differences if they are attempting to run the script on a Linux2/CentOS/RHEL server.
+
+
+**Changelog**:
+- ln 77 setup.sh
+- ln 122 docker-compose.yaml
+
+---
+
+
 ![Logo](https://mend-toolkit-resources-public.s3.amazonaws.com/img/mend-io-logo-horizontal.svg)  
+
 
 > [!Warning]  
 **This should only be used for Proof of Concepts (PoC) as it does not implement many aspects of a production-ready integration including scaling, load balancing, and fault tolerance.  For production rollout it is recommended to deploy using kubernetes.  Please contact your Customer Success Manager to engage with the Field Engineering team to learn more**  
