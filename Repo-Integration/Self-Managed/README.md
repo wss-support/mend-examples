@@ -1,5 +1,7 @@
 **MEND SUPPORT TEAM NOTE**  This repo is a fork from the mend-toolkit. The main branch should be kept up to date with that fork. The default branch has been changed to "linux2-supportlab" for this gh org because the lab server OS is Linux2; the PS team (mend-toolkit) uses an ubuntu machine, which means a few things need to be tweaked. See background at: https://github.com/mend-toolkit/mend-examples/issues/167 This fork cannot be shared with customers, but you may need to advise customers of the differences if they are attempting to run the script on a Linux2/CentOS/RHEL server.
 
+Note: When running `docker compose` commands, if you get the error `docker: 'compose' is not a docker command.` you should use `docker-compose` instead. (At the time of this note, I have not had time to update the docker host machines, so this is valid until the docker-compose-plugin and related deps can be installed.)
+
 
 **Changelog**:
 - ln 77 setup.sh
